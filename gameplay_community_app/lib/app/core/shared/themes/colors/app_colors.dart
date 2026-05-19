@@ -7,9 +7,5 @@ final class AppColors {
   static const Color textHeading = Color(0xFFDDE3F0);
   static const Color textBody = Color(0xFFABB1CC);
 
-  static const LinearGradient primaryGradient = LinearGradient(
-    colors: [Color(0xFF0E1647), Color(0xFF0A1033)],
-    begin: Alignment.centerLeft,
-    end: Alignment.centerRight,
-  );
+  static const LinearGradient primaryGradient = LinearGradient(colors: [Color(0xFF0E1647), Color(0xFF0A1033)], begin: Alignment.topCenter, end: Alignment.bottomCenter, stops: [0.0, 1.0]);
 }
