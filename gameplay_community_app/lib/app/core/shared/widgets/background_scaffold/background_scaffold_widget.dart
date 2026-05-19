@@ -11,11 +11,16 @@ class BackgroundScaffoldWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      height: height,
-      width: width,
-      decoration: BoxDecoration(gradient: AppColors.primaryGradient),
-      child: Scaffold(body: child, appBar: appBar),
+    return Scaffold(
+      body: SizedBox(
+        height: height,
+        width: width,
+        child: Container(
+          decoration: BoxDecoration(gradient: AppColors.primaryGradient),
+          child: child,
+        ),
+      ),
+      appBar: appBar,
     );
   }
 }
