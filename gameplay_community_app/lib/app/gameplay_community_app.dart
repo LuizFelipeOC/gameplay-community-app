@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:gameplay_community_app/app/core/router/router_app.dart';
+import 'package:gameplay_community_app/app/router/app_router.dart';
 
 class GameplayCommunityApp extends StatefulWidget {
   const GameplayCommunityApp({super.key});
@@ -11,6 +11,6 @@ class GameplayCommunityApp extends StatefulWidget {
 class _GameplayCommunityAppState extends State<GameplayCommunityApp> {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp.router(routerConfig: routerApp, debugShowCheckedModeBanner: false);
+    return MaterialApp.router(routerConfig: appRouter, debugShowCheckedModeBanner: false);
   }
 }
