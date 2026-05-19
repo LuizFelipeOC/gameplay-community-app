@@ -1,3 +1,4 @@
 abstract interface class AppRoutes {
-  static const String splashScreen = '/splash-screen';
+  static const String splashScreen = '/';
+  static const String auth = '/auth';
 }
