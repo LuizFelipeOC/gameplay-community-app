@@ -10,6 +10,6 @@ class GameplayCommunityApp extends StatefulWidget {
 class _GameplayCommunityAppState extends State<GameplayCommunityApp> {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp();
+    return MaterialApp(debugShowCheckedModeBanner: false);
   }
 }
