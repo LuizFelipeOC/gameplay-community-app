@@ -5,4 +5,5 @@ final class AppAssets {
   static const String onboardingScreenImage = 'assets/images/onboarding_screen_image.png';
   static const String rankedIcon = 'assets/svgs/ranked_icon.svg';
   static const String swordIcon = 'assets/svgs/sword_icon.svg';
+  static const String discordIcon = 'assets/svgs/discord_icon.svg';
 }
