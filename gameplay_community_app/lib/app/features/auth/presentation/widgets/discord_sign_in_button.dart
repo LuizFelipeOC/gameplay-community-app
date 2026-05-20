@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gameplay_community_app/app/core/shared/app_assets/app_assets.dart';
+import 'package:gameplay_community_app/app/core/shared/extensions/app_localizations_extension.dart';
 import 'package:gameplay_community_app/app/core/shared/widgets/app_svg/app_svg_widget.dart';
 
 class DiscordSignInButton extends StatelessWidget {
@@ -15,12 +16,12 @@ class DiscordSignInButton extends StatelessWidget {
       height: 56,
       child: ElevatedButton(
         onPressed: onPressed,
-        child: const Row(
+        child: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            AppSvgWidget(assetName: AppAssets.discordIcon),
-            SizedBox(width: 20),
-            Text('Entrar com Discord'),
+            const AppSvgWidget(assetName: AppAssets.discordIcon),
+            const SizedBox(width: 20),
+            Text(context.l10n.discordSignIn),
           ],
         ),
       ),
