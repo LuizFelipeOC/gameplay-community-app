@@ -16,7 +16,9 @@ class BackgroundScaffoldWidget extends StatelessWidget {
         height: height,
         width: width,
         child: Container(
-          decoration: BoxDecoration(gradient: AppColors.primaryGradient),
+          decoration: BoxDecoration(
+            gradient: AppColors.primaryGradientOf(Theme.of(context).brightness),
+          ),
           child: child,
         ),
       ),

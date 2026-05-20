@@ -29,8 +29,10 @@ class AuthHeroSection extends StatelessWidget {
               right: 0,
               bottom: 0,
               height: 127,
-              child: const DecoratedBox(
-                decoration: BoxDecoration(gradient: AppColors.linearImageColor),
+              child: DecoratedBox(
+                decoration: BoxDecoration(
+                  gradient: AppColors.linearImageShadowOf(Theme.of(context).brightness),
+                ),
               ),
             ),
           ],
