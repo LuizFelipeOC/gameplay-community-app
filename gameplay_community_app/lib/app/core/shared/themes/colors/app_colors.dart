@@ -22,36 +22,19 @@ final class AppColors {
   @Deprecated('Use textBodyDark ou Theme.of(context).colorScheme.onSurfaceVariant')
   static const Color textBody = textBodyDark;
 
-  static const LinearGradient primaryGradientDark = LinearGradient(
-    colors: [surfaceDarkHigh, surfaceDark],
-    begin: Alignment.topCenter,
-    end: Alignment.bottomCenter,
-    stops: [0.0, 1.0],
-  );
+  static const LinearGradient primaryGradientDark = LinearGradient(colors: [surfaceDarkHigh, surfaceDark], begin: Alignment.topCenter, end: Alignment.bottomCenter, stops: [0.0, 1.0]);
 
-  static const LinearGradient primaryGradientLight = LinearGradient(
-    colors: [surfaceLightHigh, surfaceLight],
-    begin: Alignment.topCenter,
-    end: Alignment.bottomCenter,
-    stops: [0.0, 1.0],
-  );
+  static const LinearGradient primaryGradientLight = LinearGradient(colors: [surfaceLightHigh, surfaceLight], begin: Alignment.topCenter, end: Alignment.bottomCenter, stops: [0.0, 1.0]);
 
   @Deprecated('Use primaryGradientOf(Brightness)')
   static const LinearGradient primaryGradient = primaryGradientDark;
 
-  static const LinearGradient linearImageShadowDark = LinearGradient(
-    begin: Alignment.topCenter,
-    end: Alignment.bottomCenter,
-    colors: [Color(0x000C123B), Color(0xFF0C123B)],
-    stops: [0.0, 1.0],
-  );
+  static const LinearGradient linearImageShadowDark = LinearGradient(begin: Alignment.topCenter, end: Alignment.bottomCenter, colors: [Color(0x000C123B), Color(0xFF0C123B)], stops: [0.0, 1.0]);
 
-  static const LinearGradient linearImageShadowLight = LinearGradient(
-    begin: Alignment.topCenter,
-    end: Alignment.bottomCenter,
-    colors: [Color(0x00F5F7FF), Color(0xFFF5F7FF)],
-    stops: [0.0, 1.0],
-  );
+  static const LinearGradient linearImageShadowLight = LinearGradient(begin: Alignment.topCenter, end: Alignment.bottomCenter, colors: [Color(0x00F5F7FF), Color(0xFFF5F7FF)], stops: [0.0, 1.0]);
+
+  static const LinearGradient linearBackgroundCardShadowDark = LinearGradient(begin: Alignment.topCenter, end: Alignment.bottomCenter, colors: [Color(0x00243189), Color(0xFF1B2565)], stops: [0.2, 2]);
+  static const LinearGradient linearBackgroundCardShadowLight = LinearGradient(begin: Alignment.topCenter, end: Alignment.bottomCenter, colors: [surfaceLightHigh, surfaceLight], stops: [0.2, 2]);
 
   @Deprecated('Use linearImageShadowOf(Brightness)')
   static const LinearGradient linearImageColor = linearImageShadowDark;
