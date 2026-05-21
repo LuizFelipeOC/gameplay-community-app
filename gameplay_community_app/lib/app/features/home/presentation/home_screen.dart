@@ -21,9 +21,8 @@ class _HomeScreenState extends State<HomeScreen> {
       body: BackgroundScaffoldWidget(
         height: height,
         width: width,
-        child: SingleChildScrollView(
-          padding: .all(20),
-          child: Column(children: []),
+        child: CustomScrollView(
+          slivers: [SliverToBoxAdapter(child: Padding(padding: .only(top: 40)))],
         ),
       ),
     );
