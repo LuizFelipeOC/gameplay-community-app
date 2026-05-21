@@ -6,6 +6,8 @@ import 'package:gameplay_community_app/app/features/auth/presentation/widgets/au
 import 'package:gameplay_community_app/app/features/auth/presentation/widgets/auth_header_section.dart';
 import 'package:gameplay_community_app/app/features/auth/presentation/widgets/auth_hero_section.dart';
 import 'package:gameplay_community_app/app/features/auth/presentation/widgets/discord_sign_in_button.dart';
+import 'package:gameplay_community_app/app/router/app_routes.dart';
+import 'package:go_router/go_router.dart';
 
 class AuthScreen extends StatefulWidget {
   const AuthScreen({super.key});
@@ -48,14 +50,16 @@ class _AuthScreenState extends State<AuthScreen> with SingleTickerProviderStateM
               animation: _animations.hero,
               child: AuthHeroSection(width: width),
             ),
-            AuthEntrance(
-              animation: _animations.header,
-              child: const AuthHeaderSection(),
-            ),
+            AuthEntrance(animation: _animations.header, child: const AuthHeaderSection()),
             const SizedBox(height: 48),
             AuthEntrance(
               animation: _animations.button,
-              child: DiscordSignInButton(width: width, onPressed: () {}),
+              child: DiscordSignInButton(
+                width: width,
+                onPressed: () {
+                  context.go(AppRoutes.home);
+                },
+              ),
             ),
           ],
         ),
