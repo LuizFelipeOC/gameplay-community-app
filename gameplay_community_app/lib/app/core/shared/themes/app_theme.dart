@@ -70,6 +70,7 @@ final class AppTheme {
       textTheme: TextTheme(
         headlineLarge: TextStyle(color: colorScheme.onSurface, fontWeight: FontWeight.bold),
         bodyMedium: TextStyle(color: colorScheme.onSurfaceVariant),
+        bodyLarge: TextStyle(color: colorScheme.onSurfaceVariant, fontSize: 16, fontWeight: .bold),
       ),
     );
   }

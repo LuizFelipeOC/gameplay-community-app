@@ -11,6 +11,7 @@ class CategoryCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final Brightness brightness = Theme.of(context).brightness;
+    final textStyle = Theme.of(context).textTheme;
 
     return Container(
       decoration: BoxDecoration(
@@ -20,6 +21,15 @@ class CategoryCard extends StatelessWidget {
       ),
       width: 104,
       height: 120,
+      child: Column(
+        crossAxisAlignment: .center,
+        mainAxisAlignment: .center,
+        children: [
+          icon,
+          SizedBox(height: 8),
+          Text(title, style: textStyle.bodyLarge),
+        ],
+      ),
     );
   }
 }
