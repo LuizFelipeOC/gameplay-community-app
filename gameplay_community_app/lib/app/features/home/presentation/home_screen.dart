@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:gameplay_community_app/app/core/shared/extensions/media_size_extension.dart';
 import 'package:gameplay_community_app/app/core/shared/widgets/background_scaffold/background_scaffold_widget.dart';
 import 'package:gameplay_community_app/app/features/home/presentation/widget/category_section/category_card_list.dart';
+import 'package:gameplay_community_app/app/features/home/presentation/widget/scheduled_matches/scheduled_matches.dart';
 import 'package:gameplay_community_app/app/features/home/presentation/widget/user_header.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -26,6 +27,8 @@ class _HomeScreenState extends State<HomeScreen> {
           slivers: [
             SliverToBoxAdapter(child: Padding(padding: .only(top: 40))),
             CategoryCardList(),
+            SliverToBoxAdapter(child: Padding(padding: .only(top: 40))),
+            ScheduledMatches(),
           ],
         ),
       ),
