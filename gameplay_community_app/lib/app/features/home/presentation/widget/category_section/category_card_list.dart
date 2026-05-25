@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gameplay_community_app/app/core/shared/extensions/app_localizations_extension.dart';
 import 'package:gameplay_community_app/app/core/shared/app_assets/app_assets.dart';
 import 'package:gameplay_community_app/app/core/shared/widgets/app_svg/app_svg_widget.dart';
 import 'package:gameplay_community_app/app/features/home/presentation/widget/category_section/category_card.dart';
@@ -14,6 +15,7 @@ class _CategoryCardListState extends State<CategoryCardList> {
   @override
   Widget build(BuildContext context) {
     final textStyle = Theme.of(context).textTheme;
+    final l10n = context.l10n;
 
     return SliverToBoxAdapter(
       child: Padding(
@@ -21,23 +23,23 @@ class _CategoryCardListState extends State<CategoryCardList> {
         child: Column(
           crossAxisAlignment: .start,
           children: [
-            Text('Categoria', style: textStyle.bodyLarge?.copyWith(fontSize: 18)),
+            Text(l10n.homeCategoryTitle, style: textStyle.bodyLarge?.copyWith(fontSize: 18)),
             const SizedBox(height: 12),
             Row(
               mainAxisAlignment: .spaceBetween,
               children: [
                 CategoryCard(
-                  title: 'Ranqueada',
+                  title: l10n.homeCategoryRanked,
                   icon: AppSvgWidget(assetName: AppAssets.rankedIcon),
                   onPres: () {},
                 ),
                 CategoryCard(
-                  title: 'Duelo 1x1',
+                  title: l10n.homeCategoryDuel,
                   icon: AppSvgWidget(assetName: AppAssets.swordIcon),
                   onPres: () {},
                 ),
                 CategoryCard(
-                  title: 'Diversão',
+                  title: l10n.homeCategoryFun,
                   icon: AppSvgWidget(assetName: AppAssets.happyPersonIcon),
                   onPres: () {},
                 ),

@@ -115,6 +115,48 @@ abstract class AppLocalizations {
   /// In pt, this message translates to:
   /// **'Entrar com Discord'**
   String get discordSignIn;
+
+  /// Prefixo da saudação no header da home
+  ///
+  /// In pt, this message translates to:
+  /// **'Olá, '**
+  String get homeGreetingPrefix;
+
+  /// Subtítulo motivacional no header da home
+  ///
+  /// In pt, this message translates to:
+  /// **'Hoje é dia de vitória'**
+  String get homeVictoryDaySubtitle;
+
+  /// Título da seção de categorias na home
+  ///
+  /// In pt, this message translates to:
+  /// **'Categoria'**
+  String get homeCategoryTitle;
+
+  /// Categoria de partidas ranqueadas
+  ///
+  /// In pt, this message translates to:
+  /// **'Ranqueada'**
+  String get homeCategoryRanked;
+
+  /// Categoria de duelo um contra um
+  ///
+  /// In pt, this message translates to:
+  /// **'Duelo 1x1'**
+  String get homeCategoryDuel;
+
+  /// Categoria de partidas casuais
+  ///
+  /// In pt, this message translates to:
+  /// **'Diversão'**
+  String get homeCategoryFun;
+
+  /// Título da seção de partidas agendadas na home
+  ///
+  /// In pt, this message translates to:
+  /// **'Partidas agendadas'**
+  String get homeScheduledMatchesTitle;
 }
 
 class _AppLocalizationsDelegate

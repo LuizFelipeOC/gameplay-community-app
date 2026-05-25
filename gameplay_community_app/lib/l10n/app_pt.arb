@@ -11,5 +11,33 @@
   "discordSignIn": "Entrar com Discord",
   "@discordSignIn": {
     "description": "Texto do botão de login com Discord"
+  },
+  "homeGreetingPrefix": "Olá, ",
+  "@homeGreetingPrefix": {
+    "description": "Prefixo da saudação no header da home"
+  },
+  "homeVictoryDaySubtitle": "Hoje é dia de vitória",
+  "@homeVictoryDaySubtitle": {
+    "description": "Subtítulo motivacional no header da home"
+  },
+  "homeCategoryTitle": "Categoria",
+  "@homeCategoryTitle": {
+    "description": "Título da seção de categorias na home"
+  },
+  "homeCategoryRanked": "Ranqueada",
+  "@homeCategoryRanked": {
+    "description": "Categoria de partidas ranqueadas"
+  },
+  "homeCategoryDuel": "Duelo 1x1",
+  "@homeCategoryDuel": {
+    "description": "Categoria de duelo um contra um"
+  },
+  "homeCategoryFun": "Diversão",
+  "@homeCategoryFun": {
+    "description": "Categoria de partidas casuais"
+  },
+  "homeScheduledMatchesTitle": "Partidas agendadas",
+  "@homeScheduledMatchesTitle": {
+    "description": "Título da seção de partidas agendadas na home"
   }
 }

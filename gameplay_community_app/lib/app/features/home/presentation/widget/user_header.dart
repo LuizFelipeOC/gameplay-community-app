@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gameplay_community_app/app/core/shared/extensions/app_localizations_extension.dart';
 import 'package:gameplay_community_app/app/core/shared/themes/colors/app_colors.dart';
 
 class UserHeader extends StatelessWidget implements PreferredSizeWidget {
@@ -11,6 +12,8 @@ class UserHeader extends StatelessWidget implements PreferredSizeWidget {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = context.l10n;
+
     return Container(
       padding: .only(left: 16, right: 16, top: 46),
       color: Theme.of(context).brightness == Brightness.light ? AppColors.surfaceLightHigh : AppColors.surfaceDarkHigh,
@@ -33,7 +36,7 @@ class UserHeader extends StatelessWidget implements PreferredSizeWidget {
                 children: [
                   Text.rich(
                     TextSpan(
-                      text: 'Olá, ',
+                      text: l10n.homeGreetingPrefix,
                       style: Theme.of(context).textTheme.headlineLarge?.copyWith(fontSize: 24, fontWeight: FontWeight.w400),
                       children: [
                         TextSpan(
@@ -43,7 +46,7 @@ class UserHeader extends StatelessWidget implements PreferredSizeWidget {
                       ],
                     ),
                   ),
-                  Text('Hoje é dia de vitória', style: Theme.of(context).textTheme.bodyMedium),
+                  Text(l10n.homeVictoryDaySubtitle, style: Theme.of(context).textTheme.bodyMedium),
                 ],
               ),
             ],

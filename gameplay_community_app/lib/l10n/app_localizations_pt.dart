@@ -17,4 +17,25 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get discordSignIn => 'Entrar com Discord';
+
+  @override
+  String get homeGreetingPrefix => 'Olá, ';
+
+  @override
+  String get homeVictoryDaySubtitle => 'Hoje é dia de vitória';
+
+  @override
+  String get homeCategoryTitle => 'Categoria';
+
+  @override
+  String get homeCategoryRanked => 'Ranqueada';
+
+  @override
+  String get homeCategoryDuel => 'Duelo 1x1';
+
+  @override
+  String get homeCategoryFun => 'Diversão';
+
+  @override
+  String get homeScheduledMatchesTitle => 'Partidas agendadas';
 }

@@ -2,5 +2,12 @@
   "@@locale": "en",
   "authTitle": "Connect and \norganize your game sessions",
   "authSubtitle": "Create groups to play your favorite\ngames with your friends",
-  "discordSignIn": "Sign in with Discord"
+  "discordSignIn": "Sign in with Discord",
+  "homeGreetingPrefix": "Hello, ",
+  "homeVictoryDaySubtitle": "Today's a winning day",
+  "homeCategoryTitle": "Category",
+  "homeCategoryRanked": "Ranked",
+  "homeCategoryDuel": "1v1 Duel",
+  "homeCategoryFun": "Fun",
+  "homeScheduledMatchesTitle": "Scheduled matches"
 }
