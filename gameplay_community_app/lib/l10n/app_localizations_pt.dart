@@ -38,4 +38,8 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get homeScheduledMatchesTitle => 'Partidas agendadas';
+
+  @override
+  String get homeScheduledMatchesEmpty =>
+      'Nenhuma partida agendada no momento.\nToque em + para criar a primeira.';
 }

@@ -39,5 +39,9 @@
   "homeScheduledMatchesTitle": "Partidas agendadas",
   "@homeScheduledMatchesTitle": {
     "description": "Título da seção de partidas agendadas na home"
+  },
+  "homeScheduledMatchesEmpty": "Nenhuma partida agendada no momento.\nToque em + para criar a primeira.",
+  "@homeScheduledMatchesEmpty": {
+    "description": "Mensagem exibida quando não há partidas agendadas na home"
   }
 }

@@ -157,6 +157,12 @@ abstract class AppLocalizations {
   /// In pt, this message translates to:
   /// **'Partidas agendadas'**
   String get homeScheduledMatchesTitle;
+
+  /// Mensagem exibida quando não há partidas agendadas na home
+  ///
+  /// In pt, this message translates to:
+  /// **'Nenhuma partida agendada no momento.\nToque em + para criar a primeira.'**
+  String get homeScheduledMatchesEmpty;
 }
 
 class _AppLocalizationsDelegate

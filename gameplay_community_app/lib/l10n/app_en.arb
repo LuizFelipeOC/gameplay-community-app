@@ -9,5 +9,6 @@
   "homeCategoryRanked": "Ranked",
   "homeCategoryDuel": "1v1 Duel",
   "homeCategoryFun": "Fun",
-  "homeScheduledMatchesTitle": "Scheduled matches"
+  "homeScheduledMatchesTitle": "Scheduled matches",
+  "homeScheduledMatchesEmpty": "No scheduled matches yet.\nTap + to create your first one."
 }

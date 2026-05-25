@@ -38,4 +38,8 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get homeScheduledMatchesTitle => 'Scheduled matches';
+
+  @override
+  String get homeScheduledMatchesEmpty =>
+      'No scheduled matches yet.\nTap + to create your first one.';
 }
