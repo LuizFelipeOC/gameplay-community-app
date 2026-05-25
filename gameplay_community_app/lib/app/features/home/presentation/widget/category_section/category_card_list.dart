@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:gameplay_community_app/app/core/shared/app_assets/app_assets.dart';
 import 'package:gameplay_community_app/app/core/shared/widgets/app_svg/app_svg_widget.dart';
-import 'package:gameplay_community_app/app/features/home/presentation/widget/category_card.dart';
+import 'package:gameplay_community_app/app/features/home/presentation/widget/category_section/category_card.dart';
 
 class CategoryCardList extends StatefulWidget {
   const CategoryCardList({super.key});
