@@ -43,5 +43,9 @@
   "homeScheduledMatchesEmpty": "Nenhuma partida agendada no momento.\nToque em + para criar a primeira.",
   "@homeScheduledMatchesEmpty": {
     "description": "Mensagem exibida quando não há partidas agendadas na home"
+  },
+  "formCreateRoomSelectServer": "Selecione um servidor",
+  "@formCreateRoomSelectServer": {
+    "description": "Placeholder do seletor de servidor ao agendar partida"
   }
 }

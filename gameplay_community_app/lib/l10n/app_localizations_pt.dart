@@ -42,4 +42,7 @@ class AppLocalizationsPt extends AppLocalizations {
   @override
   String get homeScheduledMatchesEmpty =>
       'Nenhuma partida agendada no momento.\nToque em + para criar a primeira.';
+
+  @override
+  String get formCreateRoomSelectServer => 'Selecione um servidor';
 }

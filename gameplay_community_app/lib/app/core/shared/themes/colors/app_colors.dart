@@ -46,4 +46,12 @@ final class AppColors {
   static LinearGradient linearImageShadowOf(Brightness brightness) {
     return brightness == Brightness.dark ? linearImageShadowDark : linearImageShadowLight;
   }
+
+  static LinearGradient linearBackgroundCardShadowOf(Brightness brightness) {
+    return brightness == Brightness.dark ? linearBackgroundCardShadowDark : linearBackgroundCardShadowLight;
+  }
+
+  static Color serverSelectorLeadingOf(Brightness brightness) {
+    return brightness == Brightness.dark ? const Color(0xFF243189) : const Color(0xFFC5CCE8);
+  }
 }

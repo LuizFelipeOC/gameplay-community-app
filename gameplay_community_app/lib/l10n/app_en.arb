@@ -10,5 +10,6 @@
   "homeCategoryDuel": "1v1 Duel",
   "homeCategoryFun": "Fun",
   "homeScheduledMatchesTitle": "Scheduled matches",
-  "homeScheduledMatchesEmpty": "No scheduled matches yet.\nTap + to create your first one."
+  "homeScheduledMatchesEmpty": "No scheduled matches yet.\nTap + to create your first one.",
+  "formCreateRoomSelectServer": "Select a server"
 }

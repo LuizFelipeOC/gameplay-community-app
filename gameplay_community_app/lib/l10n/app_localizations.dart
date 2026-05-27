@@ -163,6 +163,12 @@ abstract class AppLocalizations {
   /// In pt, this message translates to:
   /// **'Nenhuma partida agendada no momento.\nToque em + para criar a primeira.'**
   String get homeScheduledMatchesEmpty;
+
+  /// Placeholder do seletor de servidor ao agendar partida
+  ///
+  /// In pt, this message translates to:
+  /// **'Selecione um servidor'**
+  String get formCreateRoomSelectServer;
 }
 
 class _AppLocalizationsDelegate

@@ -3,7 +3,7 @@ import 'package:gameplay_community_app/app/core/shared/extensions/app_localizati
 import 'package:gameplay_community_app/app/core/shared/app_assets/app_assets.dart';
 import 'package:gameplay_community_app/app/core/shared/widgets/app_svg/app_svg_widget.dart';
 import 'package:gameplay_community_app/app/core/shared/widgets/entrance/fade_slide_entrance.dart';
-import 'package:gameplay_community_app/app/features/home/presentation/widget/category_section/category_card.dart';
+import 'package:gameplay_community_app/app/core/shared/widgets/category_section/category_card.dart';
 
 class CategoryCardList extends StatefulWidget {
   const CategoryCardList({super.key, this.entranceAnimation});
@@ -52,8 +52,7 @@ class _CategoryCardListState extends State<CategoryCardList> {
     );
 
     final animation = widget.entranceAnimation;
-    return SliverToBoxAdapter(
-      child: animation == null ? content : FadeSlideEntrance(animation: animation, child: content),
-    );
+    if (animation == null) return content;
+    return FadeSlideEntrance(animation: animation, child: content);
   }
 }
