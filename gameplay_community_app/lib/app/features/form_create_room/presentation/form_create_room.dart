@@ -18,12 +18,32 @@ class _FormCreateRoomState extends State<FormCreateRoom> {
     final width = context.mediaSize.width;
 
     return Scaffold(
-      appBar: CustomAppBar(title: 'Criar sala', onTap: context.pop),
+      appBar: CustomAppBar(title: 'Agendar partida', onTap: context.pop),
       body: BackgroundScaffoldWidget(
         height: height,
         width: width,
         child: SingleChildScrollView(
-          child: Form(child: Column(children: [])),
+          padding: .only(top: 32, left: 24, right: 24),
+          child: Form(
+            child: Column(
+              children: [
+                Row(
+                  children: [
+                    Expanded(
+                      child: TextFormField(decoration: InputDecoration(labelText: 'Dia e mês')),
+                    ),
+                    const SizedBox(width: 16),
+                    Expanded(
+                      child: TextFormField(decoration: InputDecoration(labelText: 'Horário')),
+                    ),
+                  ],
+                ),
+                const SizedBox(height: 22),
+
+                TextFormField(decoration: InputDecoration(labelText: 'Descrição'), maxLines: 3),
+              ],
+            ),
+          ),
         ),
       ),
     );

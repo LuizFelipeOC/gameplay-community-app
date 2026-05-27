@@ -73,6 +73,18 @@ final class AppTheme {
         bodyMedium: TextStyle(color: colorScheme.onSurfaceVariant),
         bodyLarge: TextStyle(color: colorScheme.onSurfaceVariant, fontSize: 16, fontWeight: .bold),
       ),
+      inputDecorationTheme: InputDecorationThemeData(
+        outlineBorder: BorderSide(),
+        enabledBorder: OutlineInputBorder(
+          borderRadius: .circular(8),
+          borderSide: BorderSide(width: 1, color: colorScheme.secondary),
+        ),
+        focusedBorder: OutlineInputBorder(
+          borderRadius: .circular(8),
+          borderSide: BorderSide(width: 1, color: colorScheme.secondary),
+        ),
+        labelStyle: TextStyle(color: colorScheme.onSurfaceVariant),
+      ),
     );
   }
 }
