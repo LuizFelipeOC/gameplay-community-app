@@ -11,6 +11,7 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
   Widget build(BuildContext context) {
     final backgroundColor = Theme.of(context).brightness == Brightness.light ? AppColors.surfaceLightHigh : AppColors.surfaceDarkHigh;
     final textStyle = Theme.of(context).textTheme;
+    final colorScheme = Theme.of(context).colorScheme;
 
     return Container(
       padding: .only(top: 30),
@@ -21,7 +22,10 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
         children: [
           Align(
             alignment: Alignment.centerLeft,
-            child: IconButton(onPressed: onTap, icon: const Icon(Icons.chevron_left, size: 26)),
+            child: IconButton(
+              onPressed: onTap,
+              icon: Icon(Icons.chevron_left, size: 26, color: colorScheme.primary),
+            ),
           ),
           Text(title, style: textStyle.headlineMedium, textAlign: TextAlign.center),
         ],
