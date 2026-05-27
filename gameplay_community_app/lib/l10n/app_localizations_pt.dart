@@ -45,4 +45,19 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get formCreateRoomSelectServer => 'Selecione um servidor';
+
+  @override
+  String get formCreateRoomTitle => 'Agendar partida';
+
+  @override
+  String get formCreateRoomDateLabel => 'Dia e mês';
+
+  @override
+  String get formCreateRoomTimeLabel => 'Horário';
+
+  @override
+  String get formCreateRoomDescriptionLabel => 'Descrição';
+
+  @override
+  String get formCreateRoomSubmitButton => 'Agendar';
 }

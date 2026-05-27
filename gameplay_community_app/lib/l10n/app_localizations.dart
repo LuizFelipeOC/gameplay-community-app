@@ -169,6 +169,36 @@ abstract class AppLocalizations {
   /// In pt, this message translates to:
   /// **'Selecione um servidor'**
   String get formCreateRoomSelectServer;
+
+  /// Título da tela de agendar partida
+  ///
+  /// In pt, this message translates to:
+  /// **'Agendar partida'**
+  String get formCreateRoomTitle;
+
+  /// Label do campo de data ao agendar partida
+  ///
+  /// In pt, this message translates to:
+  /// **'Dia e mês'**
+  String get formCreateRoomDateLabel;
+
+  /// Label do campo de horário ao agendar partida
+  ///
+  /// In pt, this message translates to:
+  /// **'Horário'**
+  String get formCreateRoomTimeLabel;
+
+  /// Label do campo de descrição ao agendar partida
+  ///
+  /// In pt, this message translates to:
+  /// **'Descrição'**
+  String get formCreateRoomDescriptionLabel;
+
+  /// Texto do botão de confirmar agendamento
+  ///
+  /// In pt, this message translates to:
+  /// **'Agendar'**
+  String get formCreateRoomSubmitButton;
 }
 
 class _AppLocalizationsDelegate

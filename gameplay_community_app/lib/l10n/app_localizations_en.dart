@@ -45,4 +45,19 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get formCreateRoomSelectServer => 'Select a server';
+
+  @override
+  String get formCreateRoomTitle => 'Schedule match';
+
+  @override
+  String get formCreateRoomDateLabel => 'Day and month';
+
+  @override
+  String get formCreateRoomTimeLabel => 'Time';
+
+  @override
+  String get formCreateRoomDescriptionLabel => 'Description';
+
+  @override
+  String get formCreateRoomSubmitButton => 'Schedule';
 }

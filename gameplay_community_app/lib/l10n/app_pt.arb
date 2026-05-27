@@ -47,5 +47,25 @@
   "formCreateRoomSelectServer": "Selecione um servidor",
   "@formCreateRoomSelectServer": {
     "description": "Placeholder do seletor de servidor ao agendar partida"
+  },
+  "formCreateRoomTitle": "Agendar partida",
+  "@formCreateRoomTitle": {
+    "description": "Título da tela de agendar partida"
+  },
+  "formCreateRoomDateLabel": "Dia e mês",
+  "@formCreateRoomDateLabel": {
+    "description": "Label do campo de data ao agendar partida"
+  },
+  "formCreateRoomTimeLabel": "Horário",
+  "@formCreateRoomTimeLabel": {
+    "description": "Label do campo de horário ao agendar partida"
+  },
+  "formCreateRoomDescriptionLabel": "Descrição",
+  "@formCreateRoomDescriptionLabel": {
+    "description": "Label do campo de descrição ao agendar partida"
+  },
+  "formCreateRoomSubmitButton": "Agendar",
+  "@formCreateRoomSubmitButton": {
+    "description": "Texto do botão de confirmar agendamento"
   }
 }

@@ -11,5 +11,10 @@
   "homeCategoryFun": "Fun",
   "homeScheduledMatchesTitle": "Scheduled matches",
   "homeScheduledMatchesEmpty": "No scheduled matches yet.\nTap + to create your first one.",
-  "formCreateRoomSelectServer": "Select a server"
+  "formCreateRoomSelectServer": "Select a server",
+  "formCreateRoomTitle": "Schedule match",
+  "formCreateRoomDateLabel": "Day and month",
+  "formCreateRoomTimeLabel": "Time",
+  "formCreateRoomDescriptionLabel": "Description",
+  "formCreateRoomSubmitButton": "Schedule"
 }
