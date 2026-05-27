@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:gameplay_community_app/app/core/shared/extensions/app_localizations_extension.dart';
 import 'package:gameplay_community_app/app/core/shared/themes/colors/app_colors.dart';
+import 'package:gameplay_community_app/app/router/app_routes.dart';
+import 'package:go_router/go_router.dart';
 
 class UserHeader extends StatelessWidget implements PreferredSizeWidget {
   final double height;
@@ -53,7 +55,9 @@ class UserHeader extends StatelessWidget implements PreferredSizeWidget {
           ),
 
           InkWell(
-            onTap: () {},
+            onTap: () {
+              context.push(AppRoutes.formCreateRoom);
+            },
             child: Container(
               height: 48,
               width: 48,
