@@ -69,6 +69,7 @@ final class AppTheme {
       ),
       textTheme: TextTheme(
         headlineLarge: TextStyle(color: colorScheme.onSurface, fontWeight: FontWeight.bold),
+        headlineMedium: TextStyle(color: colorScheme.onSurface, fontWeight: FontWeight.bold, fontSize: 20),
         bodyMedium: TextStyle(color: colorScheme.onSurfaceVariant),
         bodyLarge: TextStyle(color: colorScheme.onSurfaceVariant, fontSize: 16, fontWeight: .bold),
       ),
